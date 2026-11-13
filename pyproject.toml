@@ -1,0 +1,26 @@
+
+[project]
+name = "url-probe-api"
+version = "0.1.0"
+description = "A REST API for URL inspection and analysis."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "metaprobe",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "httpx",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "termux"
+url = "https://termux-user-repository.github.io/pypi/"

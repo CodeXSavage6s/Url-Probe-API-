@@ -19,5 +19,5 @@ async def MetaProbe(url):
     except Exception as error:
       return {
         "success": False,
-        "error": str(error) # Optional: include error message
+        "error": str(error)
     }

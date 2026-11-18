@@ -21,6 +21,3 @@ dev = [
 [tool.uv]
 package = false
 
-[[tool.uv.index]]
-name = "termux"
-url = "https://termux-user-repository.github.io/pypi/"
